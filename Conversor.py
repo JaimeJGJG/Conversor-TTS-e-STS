@@ -24,10 +24,10 @@ class Janela (QMainWindow):
         super().__init__()
         
         
-        self.mint = QLabel(self)
-        self.mint.move(0,0)
-        self.mint.setPixmap(QtGui.QPixmap('Wall.png'))
-        self.mint.resize(300,300)
+        self.wall = QLabel(self)
+        self.wall.move(0,0)
+        self.wall.setPixmap(QtGui.QPixmap('Wall.png'))
+        self.wall.resize(300,300)
         
         self.caixa_texto = QLineEdit(self)
         self.caixa_texto.move(25,45)
